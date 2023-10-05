@@ -34,7 +34,7 @@ public class Base {
 	public static void submit(By by){
 		driver.findElement(by).submit();
 	}
-	public static void navigateURL(String url) {
+	public static void navigateURL(tring url) {
 		driver.get( url );
 	}
 	public static void clear(By by) {
